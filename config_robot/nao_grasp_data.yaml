@@ -12,12 +12,10 @@ left_hand:
     grasp_time_from_start : 4.0
 
     # width of gripper fingers
-    #NEED TUNNING
-    gripper_finger_width : 0.015
+    gripper_finger_width : 0.01
 
     # max object width that can fit between fingers
-    #NEED TUNNING
-    max_grasp_width: 0.08
+    max_grasp_width: 0.04
 
     # x/y and angle grasp resolution parameters (angle is in degrees)
     #NEED TUNNING
@@ -25,9 +23,8 @@ left_hand:
     angle_resolution : 90
 
     # max/min depth of fingers (distance from finger tip to inner palm) or the suction cup stroke
-    #NEED TUNNING
-    grasp_max_depth : 0.035
-    grasp_min_depth : 0.01
+    grasp_max_depth : 0.05
+    grasp_min_depth : 0.02
     grasp_depth_resolution : 1.05
 
     # Length of approach path (this is in addition to the grasp_max_depth)
@@ -60,8 +57,8 @@ left_hand:
 
     # Distance between fingers, in meters
     #NEED TUNNING
-    max_finger_width: 0.085
-    min_finger_width: 0.06
+    max_finger_width: 0.045
+    min_finger_width: 0.01
 
     ############# DON'T DELETED THIS#########
     #desired pose from end effector to grasp - [x,y,z]
@@ -84,12 +81,10 @@ right_hand:
     grasp_time_from_start : 4.0
 
     # width of gripper fingers
-    #NEED TUNNING
-    gripper_finger_width : 0.015
+    gripper_finger_width : 0.01
 
     # max object width that can fit between fingers
-    #NEED TUNNING
-    max_grasp_width: 0.08
+    max_grasp_width: 0.04
 
     # x/y and angle grasp resolution parameters (angle is in degrees)
     #NEED TUNNING
@@ -97,9 +92,8 @@ right_hand:
     angle_resolution : 90
 
     # max/min depth of fingers (distance from finger tip to inner palm) or the suction cup stroke
-    #NEED TUNNING
-    grasp_max_depth : 0.035
-    grasp_min_depth : 0.01
+    grasp_max_depth : 0.05
+    grasp_min_depth : 0.02
     grasp_depth_resolution : 1.05
 
     # Length of approach path (this is in addition to the grasp_max_depth)
@@ -132,8 +126,8 @@ right_hand:
 
     # Distance between fingers, in meters
     #NEED TUNNING
-    max_finger_width: 0.085
-    min_finger_width: 0.06
+    max_finger_width: 0.045
+    min_finger_width: 0.01
 
     ############# DON'T DELETED THIS#########
     #desired pose from end effector to grasp - [x,y,z]
