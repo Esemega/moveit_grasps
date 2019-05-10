@@ -113,6 +113,12 @@ target_link_libraries(${PROJECT_NAME}_grasp_pipeline_demo
   ${PROJECT_NAME} ${PROJECT_NAME}_filter ${catkin_LIBRARIES} ${Boost_LIBRARIES}
 )
 
+# Nao grasp data settings
+add_executable(${PROJECT_NAME}_grasp_poses_visualizer_nao src/nao/grasp_poses_visualizer_nao.cpp)
+target_link_libraries(${PROJECT_NAME}_grasp_poses_visualizer_nao
+  ${PROJECT_NAME} ${catkin_LIBRARIES} ${Boost_LIBRARIES}
+)
+
 #############
 ## INSTALL ##
 #############
